@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- header section  -->
+    <header>
+        <a href="#banner" class="logo">Logo</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        
+            <ul class="navigation">
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        
+    </header>
+
+    <section class="banner section-padding" id="banner">
+        <div class="banner-text">
+            <h3>Welcome to my world !</h3>
+            <h1>Hi, I'm <span>Sourav Sarker</span></h1>
+            <h2>A Front-end Developer</h2>
+        </div>
+    </section>
+
+
+    <!-- Start About Section  -->
+
+    <section class="about section-padding" id="about">
+        <div class="title">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="row">
+            <div class="col50 text-bx">
+                
+                    <h3>Wordpress Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, necessitatibus nulla architecto  laboriosam distinctio? Voluptatum aliquid blanditiis nobis tempore soluta quae fuga aliquam alias? Molestias at adipisci beatae error modi aperiam minus aliquid ad unde possimus accusantium illo ex dicta, vero aut dolores tempora eveniet consequatur, vitae nam recusandae? Voluptates voluptatibus ex officia laudantium ipsum quam laborum veniam qui, ab iusto? Fugit asperiores rem optio provident at neque vel voluptas!</p>
+                    <a href="#" class="boxed-btn">Download CV <i class="fa fa-download"></i></a>
+                
+            </div>
+
+            <div class="col50 imgBx">
+                
+                    <img src="images/about.jpg" alt="">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- End About Section  -->
+
+
+    <!-- Start Services Section  -->
+    <section class="services section-padding" id="services">
+        <div class="title">
+            <h3>My services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>Wordpress Customize</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>Wordpress Development</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>React development</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>PHP Development</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Services Section  -->
+
+
+    <!-- Start Skill Section  -->
+    <section class="skills section-padding" id="skills">
+
+        <div class="title">
+            <h3>My Skills</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="skill-box">
+                    <h3>PSD to HTML</h3>
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-box">
+                    <h3>Responsive Design</h3>
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-box">
+                    <h3>Vanilla JavaScript</h3>
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-box">
+                    <h3>React JS</h3>
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="skill-box">
+                    <h3>PSD to HTML</h3>
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-box">
+                    <h3>Responsive Design</h3>
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-box">
+                    <h3>Vanilla JavaScript</h3>
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-box">
+                    <h3>React JS</h3>
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Services Section  -->
+    <section class="projects section-padding" id="projects">
+        <div class="title">
+            <h3>Some Done Projects</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/demo1.webp" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>Wordpress Website</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/demo3.png" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>Portfolio Website</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/demo4.webp" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>React Website</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/demo7.webp" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>PHP Website</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/demo1.webp" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>E-commerse Website</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/demo3.png" alt="">
+                </div>
+                <div class="textBx">
+                    <h3>Vanilla Project</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Services Section  -->
+
+
+    <!-- Start Testimonials Section  -->
+    <section class="testimonials section-padding white" id="testimonials">
+        <div class="title">
+            <h3>Some Clients Says</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni omnis reprehenderit natus vitae optio obcaecati laboriosam? Ad deleniti sapiente adipisci nemo, eveniet libero tempore enim assumenda provident commodi magnam corrupti!</p>
+                    <h3>Some Famous</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni omnis reprehenderit natus vitae optio obcaecati laboriosam? Ad deleniti sapiente adipisci nemo, eveniet libero tempore enim assumenda provident commodi magnam corrupti!</p>
+                    <h3>Some Famous</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni omnis reprehenderit natus vitae optio obcaecati laboriosam? Ad deleniti sapiente adipisci nemo, eveniet libero tempore enim assumenda provident commodi magnam corrupti!</p>
+                    <h3>Some Famous</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Testimonial Section  -->
+
+    <!-- Start Contact Section -->
+    
+    <section class="contact section-padding" id="contact">
+        <div class="title">
+            <h3>Contact Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+
+
+        <div class="content">
+        
+            <div class="box">
+                <h3>Message Me</h3>
+                <div class="contentBx">
+                    
+                    <div class="inputBx">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputBx">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="inputBx">
+                        <textarea name="" id="" placeholder="Type your Message...." ></textarea>
+                    </div>
+                    <div class="inputBx">
+                        <input type="submit" placeholder="Send">
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <h3>My all Social Links</h3>
+                <div class="socials">
+                    
+                    <div class="social-box">
+                        <div class="imgBx">
+                            <a href="#"><img src="images/facebook.png" alt=""></a>
+                        </div>
+                        <div class="textBx">
+                            <h3>Facebook</h3>
+                        </div>
+                    </div>
+
+                    <div class="social-box">
+                        <div class="imgBx">
+                            <a href="#"><img src="images/linkedin.png" alt=""></a>
+                        </div>
+                        <div class="textBx">
+                            <h3>linkedin</h3>
+                        </div>
+                    </div>
+
+                    <div class="social-box">
+                        <div class="imgBx">
+                            <a href="#"><img src="images/twitter.png" alt=""></a>
+                        </div>
+                        <div class="textBx">
+                            <h3>twitter</h3>
+                        </div>
+                    </div>
+
+                    <div class="social-box">
+                        <div class="imgBx">
+                            <a href="#"><img src="images/facebook.png" alt=""></a>
+                        </div>
+                        <div class="textBx">
+                            <h3>Facebook</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <p>ALL Right Resource @Copyright Developed by <a href="#">Sourav Sarker</a></p>
+    </footer>
+
+
+
+
+
+
+    <!-- JS Link  -->
+    <script src="js/main.js"></script>
+</body>
+</html>
